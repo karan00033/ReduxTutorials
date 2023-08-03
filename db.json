@@ -1,0 +1,127 @@
+{
+  "accounts": [
+    {
+      "id": 1,
+      "username": "john_doe",
+      "email": "john.doe@example.com",
+      "amount": 1000.0,
+      "isActive": true
+    },
+    {
+      "id": 2,
+      "username": "jane_smith",
+      "email": "jane.smith@example.com",
+      "amount": 2500.5,
+      "isActive": true
+    },
+    {
+      "id": 3,
+      "username": "bob_johnson",
+      "email": "bob.johnson@example.com",
+      "amount": 500.75,
+      "isActive": false
+    },
+    {
+      "id": 4,
+      "username": "alice_williams",
+      "email": "alice.williams@example.com",
+      "amount": 1200.25,
+      "isActive": true
+    },
+    {
+      "id": 5,
+      "username": "tom_smith",
+      "email": "tom.smith@example.com",
+      "amount": 750.0,
+      "isActive": true
+    },
+    {
+      "id": 6,
+      "username": "mary_jones",
+      "email": "mary.jones@example.com",
+      "amount": 3000.1,
+      "isActive": true
+    },
+    {
+      "id": 7,
+      "username": "will_adams",
+      "email": "will.adams@example.com",
+      "amount": 800.5,
+      "isActive": false
+    },
+    {
+      "id": 8,
+      "username": "sarah_brown",
+      "email": "sarah.brown@example.com",
+      "amount": 1900.9,
+      "isActive": true
+    },
+    {
+      "id": 9,
+      "username": "chris_jackson",
+      "email": "chris.jackson@example.com",
+      "amount": 350.0,
+      "isActive": true
+    },
+    {
+      "id": 10,
+      "username": "emily_thompson",
+      "email": "emily.thompson@example.com",
+      "amount": 5000.75,
+      "isActive": true
+    },
+    {
+      "id": 11,
+      "username": "michael_davis",
+      "email": "michael.davis@example.com",
+      "amount": 900.6,
+      "isActive": true
+    },
+    {
+      "id": 12,
+      "username": "lisa_rodriguez",
+      "email": "lisa.rodriguez@example.com",
+      "amount": 2200.0,
+      "isActive": false
+    },
+    {
+      "id": 13,
+      "username": "david_martinez",
+      "email": "david.martinez@example.com",
+      "amount": 1100.3,
+      "isActive": true
+    },
+    {
+      "id": 14,
+      "username": "jennifer_lewis",
+      "email": "jennifer.lewis@example.com",
+      "amount": 1800.2,
+      "isActive": true
+    },
+    {
+      "id": 15,
+      "username": "kevin_smith",
+      "email": "kevin.smith@example.com",
+      "amount": 400.15,
+      "isActive": true
+    }
+  ],
+  "bonus": [
+    {
+      "id": 1,
+      "points": 25
+    },
+    {
+      "id": 2,
+      "points": 50
+    },
+    {
+      "id": 3,
+      "points": 75
+    },
+    {
+      "id": 4,
+      "points": 100
+    }
+  ]
+}

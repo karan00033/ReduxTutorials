@@ -1,0 +1,62 @@
+https://redux.js.org/
+
+1.Redux is a pattern in which we do things sequentially and ussi way se we do things.
+
+2.Redux is independent of frameworks. 
+
+3.Redux used to avoid props drilling and lifting state up.
+
+4.Redux provide global state management in the form of redux store.. We can access that state from anywhere.
+
+5.Redux mein kuch state hoti hai and hmaara kaam ye hai ki haam uss state ko access kaar paaye and change kaar paaye.
+
+6.Take Example - Cash withdraw and deposit from the bank
+
+7.Inside store, Most important thing is state. Let say bank is our store, so money present in the bank let say 200 is our state.
+
+8. Action consists of two things, Type and payload basically kis type ka action hai and uska data basically payload bolte hai.
+
+Example - deposit 100rs = The type of this action is deposit and payload is 100rs. More types of the action can be withdraw, checkbalance etc. In somecases payload can be there and insome cases it can't be there like for checkbalance payload is not required.
+
+9. Now action can't directly change the state, It goes to ****reducer****, Reducer along with previous state and combining new data. Find the new state.
+
+10. dispatch = The person who dispatch action, Action we make by ourselves. It's not present in the store.
+
+11. Dispatch, state, reducer is present in the store. Action we make by ourselves, It's not prsent in the store.
+
+12. Middlwares = we do api calling, async tasks, ya kuch check karna hai before going completely to reducer we consider it in middlwares.
+13. Middlwares will again dispatch action2 or something to the reducer on the basis of the result. There can be multiple actions dispatched from the middlwares.
+
+14. Reducer takes two parameters (state, action) and it always return a state.
+Coder dost library = 
+https://github.com/coderdost/full-stack-dev-2023
+
+
+# *************** First we are using simple redux library ***************
+1. npm install redux
+2. Installing redux middlwares = npm install redux-logger
+
+It is giving me previous state, action and next state. Example below =  
+action increment @ 12:23:22.052
+   prev state { amount: 12 }
+   action     { type: 'increment' }
+   next state { amount: 13 }
+---- action ----:  { type: 'increment' }
+---- state.amount ----:  14
+[
+  { amount: 2 },  { amount: 3 },
+  { amount: 4 },  { amount: 5 },
+  { amount: 6 },  { amount: 7 },
+  { amount: 8 },  { amount: 9 },
+  { amount: 10 }, { amount: 11 },
+  { amount: 12 }, { amount: 13 },
+  { amount: 14 }
+]
+ action increment @ 12:23:24.066
+   prev state { amount: 13 }
+   action     { type: 'increment' }
+   next state { amount: 14 }
+
+To run json-server = json-server db.json
+15. Redux Thunk Middleware
+16. Multiple Reducers concepts.
